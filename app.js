@@ -1,3 +1,4 @@
-// ⚠️ MALAS PRÁCTICAS (clave embebida)
-const API_KEY = 'AIzaSy12345-clave-falsa';
-console.log('Mi clave es:', API_KEY);
+require('dotenv').config();
+
+const API_KEY = process.env.API_KEY;
+console.log('Mi clave segura es:', API_KEY);
