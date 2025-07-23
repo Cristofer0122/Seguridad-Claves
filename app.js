@@ -1,4 +1,4 @@
-require('dotenv').config();
+// ⚠️ Esta forma es INSEGURA: clave escrita directamente
+const API_KEY = '123456-CLAVE-FAKE';
+console.log('Mi clave es:', API_KEY);
 
-const API_KEY = process.env.API_KEY;
-console.log('Mi clave segura es:', API_KEY);
